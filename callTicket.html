@@ -53,7 +53,12 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px;
-        border-bottom: 1px solid #eee;
+        /* 罫線を追加 */
+        border-bottom: 1px solid #000;
+      }
+      /* 最後の項目に下線を表示しないようにする */
+      .ticket-item:last-child {
+        border-bottom: none;
       }
       .delete-button {
         background-color: #f44336;
