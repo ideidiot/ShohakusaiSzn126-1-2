@@ -1,6 +1,13 @@
 const firebaseConfig = {
-  
-};
+    apiKey: "AIzaSyB2zB6rmVnKN5nKaUBuuD35Dz9Ple8VIhc",
+    authDomain: "ticketsozan.firebaseapp.com",
+    databaseURL: "https://ticketsozan-default-rtdb.firebaseio.com",
+    projectId: "ticketsozan",
+    storageBucket: "ticketsozan.firebasestorage.app",
+    messagingSenderId: "253285381122",
+    appId: "1:253285381122:web:7e7794c27979412962231b",
+    measurementId: "G-HLJWLV9RMS"
+  };
 
 // Firebaseの初期化
 firebase.initializeApp(firebaseConfig);
